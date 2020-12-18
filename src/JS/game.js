@@ -5,8 +5,8 @@ import SceneGameOver from './SceneGameOver';
 
 let config = {
   type: Phaser.WEBGL,
-  width: 480,
-  height: 540,
+  width: 540,
+  height: 600,
   backgroundColor: "black",
   physics: {
     default: "arcade",
