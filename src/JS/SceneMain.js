@@ -1,4 +1,4 @@
-import {Player, GunShip, ChaserShip, CarrierShip} from './Entities';
+import {Player, GunShip, ChaserShip, CarrierShip, ScrollingBackground} from './Entities';
 import sprBg0 from '../Assets/sprBg0.png';
 import sprBg1 from '../Assets/sprBg1.png';
 import sprExplosion from '../Assets/sprExplosion.png';
