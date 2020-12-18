@@ -149,6 +149,7 @@ export default class SceneMain extends Phaser.Scene {
       if (!player.getData("isDead") &&
           !enemy.getData("isDead")) {
         player.explode(false);
+        player.onDestroy();
         enemy.explode(true);
       }
     });
@@ -156,6 +157,7 @@ export default class SceneMain extends Phaser.Scene {
       if (!player.getData("isDead") &&
           !laser.getData("isDead")) {
         player.explode(false);
+        player.onDestroy();
         laser.destroy();
       }
     });
